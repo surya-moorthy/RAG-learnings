@@ -4,7 +4,6 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
-from langchain_core.vectorstores import InMemoryVectorStore
 
 load_dotenv()
 
